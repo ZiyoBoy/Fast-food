@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: yellowgreen;
+}
+header {
+    background-image: url(https://sun9-67.userapi.com/impf/c855032/v855032710/12a2c5/L0_0x1WhMfo.jpg?size=1280x853&quality=96&sign=035fed2b26008045349e5c99859aa1a7&type=album);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    border-radius: 30px;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.508);
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-image: url(https://drasler.ru/wp-content/uploads/2023/02/%D0%A3%D1%8E%D1%82%D0%BD%D1%8B%D0%B9-%D0%B7%D0%B0%D0%B4%D0%BD%D0%B8%D0%B9-%D1%84%D0%BE%D0%BD-%D1%81-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-%D0%BE%D0%B3%D0%BD%D1%8F_001.jpg);
+
+}
+ul{
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+li {
+    width: 80%;
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(249, 248, 244);
+}
+a {
+    text-decoration-line: none;
+    color: rgb(9, 96, 120);
+}
+
+#iconeone {
+    width: 10%;
+}
+#iconetwo {
+    width: 10%;
+}
+i {
+    color: rgb(0, 0, 0);
+}
+h1 {
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+input {
+    margin-bottom: 10%;
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid white;
+    background: none;
+}
+li:hover {
+    transform: scale(2);
+    transition: all ease 3s;
+}
+#section {
+    width: 100%;
+    height: 750px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://drasler.ru/wp-content/uploads/2023/02/%D0%A3%D1%8E%D1%82%D0%BD%D1%8B%D0%B9-%D0%B7%D0%B0%D0%B4%D0%BD%D0%B8%D0%B9-%D1%84%D0%BE%D0%BD-%D1%81-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-%D0%BE%D0%B3%D0%BD%D1%8F_001.jpg);
+}
+
+img {
+    border-radius: 20px;
+}
+h2 {
+    font-size: 16px;
+    text-decoration-line: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(54, 4, 4);
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5%;
+}
+b {
+    color: rgb(6, 136, 249);
+    margin-right: 20px;
+}
+#section2 {
+    width: 100%;
+    height: 750px;
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 70%;
+    height: 550px;
+    margin-left: 15%;
+
+}
+button {
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid rgb(7, 191, 242);
+    background: none;
+    color: rgb(7, 191, 242);
+}
+h3 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(7, 191, 242);
+    font-weight: lighter;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://drasler.ru/wp-content/uploads/2023/02/%D0%A3%D1%8E%D1%82%D0%BD%D1%8B%D0%B9-%D0%B7%D0%B0%D0%B4%D0%BD%D0%B8%D0%B9-%D1%84%D0%BE%D0%BD-%D1%81-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-%D0%BE%D0%B3%D0%BD%D1%8F_001.jpg);
+    width: 100%;
+    height: 400px;
+}
+iframe {
+    border-radius: 20px;
+}
+h4 {
+    color: rgb(3, 13, 22);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+#footerend {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+@media (max-width: 750px) {
+    .navbar li {
+        opacity: 0;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    input {
+        width: 300px;
+        height: 40px;
+        border: 1px solid rgb(243, 238, 238);
+    }
+    .menu {
+        flex-wrap: wrap;
+    }
+    #section {
+        height: 2700px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    form input {
+        margin-top: 15px;
+        width: 140px;
+        height: 30px;
+    }
+    form button {
+        width: 140px;
+        height: 30px;
+    }
+    #section2 {
+        height: 400px;
+    }
+    form {
+        height: 300px;
+    }
+    #footer {
+        height: 600px;
+    }
+    #footerend {
+        flex-wrap: wrap;
+    }
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+
+}
